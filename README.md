@@ -20,3 +20,11 @@ an utility to customize keyboard and wheel behavior for Japanese Mac users
 1. もう一度実行する
 1. 適当なWebページを開いてホイールを回して動作確認する
 1. うまく動いたらユーザー設定のログイン項目にKanaScrollを追加して再起動
+
+# アンインストール
+
+1. 端末を開く
+1. pkill KanaScroll
+1. ユーザー設定のログイン項目からKanaScrollを削除する
+1. セキュリティ環境設定のアクセシビリティ設定からKanaScrollを削除する
+1. アプリケーションフォルダから　KanaScroll を削除する
