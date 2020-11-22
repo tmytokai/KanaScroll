@@ -8,7 +8,7 @@ an utility to customize keyboard and wheel behavior for Japanese Mac users
 
 # 動作確認バージョン
 
-10.14 Mojave
+Mojave, Catalina, Big sur (Universalなので多分M1でも動きます)
 
 # 使い方
 
@@ -16,10 +16,15 @@ an utility to customize keyboard and wheel behavior for Japanese Mac users
 1. KanaScroll をアプリケーションフォルダに移動
 1. 一旦実行する
 1. セキュリティ環境設定の一般タブで KanaScrollを実行可能にする
-1. アクセシビリティ設定でKanaScrollを制御可能にする
+1. セキュリティ環境設定のプライバシータブのアクセシビリティ設定でKanaScrollを制御可能にする
 1. もう一度実行する
 1. 適当なWebページを開いてホイールを回して動作確認する
 1. うまく動いたらユーザー設定のログイン項目にKanaScrollを追加して再起動
+
+# 設定方法
+
+1. 普通に英数キーで英数字モードに戻りたい場合は ~/.zshrc に export ks_disable_eisukey=false を追加して再起動(デフォルトはtrue)
+1. スクロール速度を変えたい場合は  ~/.zshrc に export ks_scrollspeed=数字 を追加して再起動(デフォルトは3)
 
 # アンインストール
 
