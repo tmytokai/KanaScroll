@@ -23,8 +23,14 @@ Mojave, Catalina, Big sur (Universalなので多分M1でも動きます)
 
 # 設定方法
 
-1. 普通に英数キーで英数字モードに戻りたい場合は ~/.zshrc に export ks_disable_eisukey=false を追加して再起動(デフォルトはtrue)
-1. スクロール速度を変えたい場合は  ~/.zshrc に export ks_scrollspeed=数字 を追加して再起動(デフォルトは3)
+1. 端末を開く
+1. pkill KanaScroll
+1. KanaScroll をアプリケーションフォルダから削除
+1. 改めて KanaScroll をアプリケーションフォルダに移動
+1. パッケージの内容を表示し、Contents/Info.plist をテキストエディタで開く
+1. 普通に英数キーで英数字モードに戻りたい場合は LSEnvironment の ks_disable_eisukey を false をする(デフォルトはtrue)
+1. スクロール速度を変えたい場合は LSEnvironment の ks_scrollspeed の数字を変更する(デフォルトは3)
+1. KanaScroll を再起動する
 
 # アンインストール
 
