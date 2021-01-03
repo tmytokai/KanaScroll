@@ -8,7 +8,7 @@ an utility to customize keyboard and wheel behavior for Japanese Mac users
 
 # 動作確認バージョン
 
-Mojave, Catalina, Big sur (Universalなので多分M1でも動きます)
+Mojave, Catalina, Big sur (M1での動作確認済)
 
 # 使い方
 
